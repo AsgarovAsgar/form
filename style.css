@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.signup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  overflow: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  /* display: none */
+}
+
+.text-wrapper {
+  padding: 100px 130px 100px 115px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #1E0E62;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1E0E62;
+}
+
+input {
+  mix-blend-mode: normal;
+  border: 2px solid #EBEAED;
+  border-radius: 100px;
+  padding: 16px 24px
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  color: #EBEAED;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px
+}
+
+.dashboard *  {
+  font-family: 'Fraunces', serif;
+}
+
+.hidden {
+  display: none;
+}
+
+#profile {
+  margin: 50px;
+  background-color: #FFFAFA;
+  border-radius: 20px;
+  border: 1px solid black;
+
+}
+
+.profile-banner {
+  margin: 100px 110px;
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 25px
+}
+
+#avatar {
+  height: 350px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.text-content {
+  margin: 40px 0px;
+  width: 65%;
+  
+}
+
+.description {
+  margin: 14px 0px 24px 0px;
+  font-size: 18px
+}
+
+.profile-buttons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+#resume {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid black
+}
+
+.social-buttons {
+  font-size: 14px;
+  text-decoration: underline;
+}
